@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PinjemDong</title>
+    <title>SewaDong</title>
 
     <!-- Tailwind -->
     @vite('resources/css/app.css')
