@@ -11,7 +11,11 @@ export default {
        Montserrat: ["Montserrat", "sans-serif"],
        Nunito: ["Nunito", "sans-serif"]
 
-      }
+      },
+        dropShadow: {
+          "text": ["6px 2px 31px rgba(0, 0, 0, 0.40)"],
+          "button": ["6px 2px 31px rgba(0, 0, 0, 0.20)"],
+        },
     },
   },
   plugins: [],
