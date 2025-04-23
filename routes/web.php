@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('app');
+Route::get('signin-up', function () {
+    return view('frontend.signin-up');
 });
+Route::get('login', function () {
+    return view('frontend.login');
+});
+Route::get('signin', function () {
+    return view('frontend/signin');
+});
+

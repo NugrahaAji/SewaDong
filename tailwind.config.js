@@ -8,8 +8,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-       Montserrat: ["Montserrat", "sans-serif"],
-       Nunito: ["Nunito", "sans-serif"]
+       Host: ["Host Grotesk", "sans-serif"],
 
       },
         dropShadow: {
