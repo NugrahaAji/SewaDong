@@ -1,5 +1,9 @@
+import defaultTheme from 'tailwindcss/defaultTheme';
+import forms from '@tailwindcss/forms';
+
 /** @type {import('tailwindcss').Config} */
 export default {
+<<<<<<< Updated upstream
   content: [
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
@@ -10,14 +14,21 @@ export default {
       fontFamily: {
        Montserrat: ["Montserrat", "sans-serif"],
        Nunito: ["Nunito", "sans-serif"]
+=======
+    content: [
+        './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php',
+        './storage/framework/views/*.php',
+        './resources/views/**/*.blade.php',
+    ],
+>>>>>>> Stashed changes
 
-      },
-        dropShadow: {
-          "text": ["6px 2px 31px rgba(0, 0, 0, 0.40)"],
-          "button": ["6px 2px 31px rgba(0, 0, 0, 0.20)"],
+    theme: {
+        extend: {
+            fontFamily: {
+                sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+            },
         },
     },
-  },
-  plugins: [],
-}
 
+    plugins: [forms],
+};
