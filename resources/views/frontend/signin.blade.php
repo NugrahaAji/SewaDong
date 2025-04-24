@@ -5,7 +5,7 @@
         <img src="{{ url('image/login-bg.svg') }}" alt="">
     </div>
     <div class="z-1 relative bg-white w-[695px] h-screen ml-auto rounded-l-[50px] shadow-[0px_0px_100px_0px_rgba(0,0,0,0.25)]">
-        <div class="right-[128px] mt-[200px] absolute text-start h-[582px] w-[440px]">
+        <div class="right-[128px] mt-[240px] absolute text-start h-[582px] w-[440px]">
             <h1 class="font-Host text-4xl font-extrabold">
                 Buat akunmu
             </h1>
@@ -34,7 +34,7 @@
                 </a>
                 <a class="bg-white w-full text-black font-normal text-lg font-Host mt-4  flex items-center justify-center">
                     <div class="flex gap-[10px] justify-center">
-                        <img src="{{ url('image/google.svg') }}" alt="">
+                        <img src="{{ url('icon/google.svg') }}" alt="">
                         Masuk dengan Google
                     </div>
                 </a>

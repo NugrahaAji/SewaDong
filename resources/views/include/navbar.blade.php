@@ -1,40 +1,40 @@
-<nav class="w-full top-0 h-20 z-50 flex bg-white text-[#433F3F] fixed shadow-[0px_0px_50px_0px_rgba(0,0,0,0.03)] " x-data="{ isOpen: false }">
+<nav class="w-full top-0 h-20 z-50 flex bg-white fixed shadow-[0px_0px_50px_0px_rgba(0,0,0,0.03)] " x-data="{ isOpen: false }">
         <div class="my-auto grow mx-auto ">
             <div class="flex items-center px-[4.16%]">
                 {{-- Logo --}}
             <!-- <img class="h-10 md:h-12  w-auto" src="{{ url('deeptalk/secLogo.png') }}" alt="Logo DTLC"> -->
-            <h1 class="drop-shadow-text font-Host font-extrabold text-[clamp(28px,2vw,32px)] ">SewaDong</h1>
+            <h1 class="font-Host font-extrabold text-[clamp(28px,2vw,32px)] ">SewaDong</h1>
             {{-- nav-link --}}
             <div class="hidden lg:block ml-auto">
                 <ul class="flex gap-9 font-Host font-semibold text-[16px]">
-                    <li class="w-24 font-normal text-[#2c2c2c] mx-auto my-auto text-center text-regular">
-                        <button onclick=""
+                    <li class="font-normal mx-auto my-auto text-center text-regular flex items-center">
+                        <a href="/"
+                        class="">
+                        <img src="{{ url('icon/searchIcon.svg') }}" alt="">
+                        </a>
+                    </li>
+                    <li class="w-24 font-normal mx-auto my-auto text-center text-regular">
+                        <a href="/riwayat"
                         class="">
                         Riwayat
-                        </button>
+                        </a>
                     </li>
-                    <li class="w-24 font-normal text-[#2c2c2c] mx-auto my-auto text-center text-regular">
-                        <button onclick=""
-                        class="">
-                        Riwayat
-                        </button>
-                    </li>
-                    <li class="w-24 font-normal text-[#2c2c2c] mx-auto my-auto text-center text-regular">
-                        <button onclick=""
+                    <li class="w-24 font-normal mx-auto my-auto text-center text-regular">
+                        <a href="/beranda"
                         class="">
                         Beranda
-                        </button>
+                        </a>
                     </li>
-                    <li class="w-24 font-normal text-[#2c2c2c] mx-auto my-auto text-center text-regular">
-                        <button onclick=""
+                    <li class="w-24 font-normal mx-auto my-auto text-center text-regular">
+                        <a href="/kategori-barang"
                         class="">
                         Kategori
-                        </button>
+                        </a>
                     </li>
                     <li>
-                        <button onclick="scrollToSection('biaya')"
-                            class="bg-[#DA0700] text-white font-Host font-semibold rounded-full w-28 h-8  drop-shadow-button grow"> 
-                        </button>
+                        <a onclick="">
+                            <img src="{{ url('icon/profile.svg') }}" alt="">
+                        </a>
                     </li>
                 </ul>
             </div>

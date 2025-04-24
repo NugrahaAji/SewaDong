@@ -1,7 +1,7 @@
 @extends('layout.structure')
 <body class="overflow-hidden"> 
+    @include('include.navbar-unreg')
     <section class="h-[100vh] overflow-hidden">
-        @include('include.navbar-unreg')
         <div class ="-z-10 absolute h-[100vh] top-0">
             <img src="{{ url('image/login-bg.svg') }}" alt="">
         </div>
@@ -35,7 +35,7 @@
                     </a>
                     <a class="bg-white w-full text-black font-normal text-lg font-Host mt-4  flex items-center justify-center">
                         <div class="flex gap-[10px] justify-center">
-                            <img src="{{ url('image/google.svg') }}" alt="">
+                            <img src="{{ url('icon/google.svg') }}" alt="">
                             Masuk dengan Google
                         </div>
                     </a>
