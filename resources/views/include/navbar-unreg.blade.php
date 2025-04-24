@@ -1,4 +1,5 @@
-<nav class="w-full top-0 h-20 z-50 flex bg-white fixed shadow-[0px_0px_50px_0px_rgba(0,0,0,0.03)] " x-data="{ isOpen: false }">
+
+<nav class="w-full top-0 h-20 z-50 flex bg-white text-[#433F3F] fixed shadow-[0px_0px_50px_0px_rgba(0,0,0,0.03)] " x-data="{ isOpen: false }">
         <div class="my-auto grow mx-auto ">
             <div class="flex items-center px-[4.16%]">
             <h1 class="drop-shadow-text font-Host font-extrabold text-[clamp(28px,2vw,32px)] ">SewaDong</h1>
@@ -12,19 +13,24 @@
                         </a>
                     </li>
                     <li class="w-24 font-normal mx-auto my-auto text-center text-regular">
+
                         <a href="/beranda"
                         class="">
                         Beranda
                         </a>
                     </li>
-                    <li class="w-24 font-normal mx-auto my-auto text-center text-regular">
-                        <a href="/kategori-barang"
+
+                    <li class="w-24 font-normal text-[#2c2c2c] mx-auto my-auto text-center text-regular">
+                        <a href="/kategori"
+
                         class="">
                         Kategori
                         </a>
                     </li>
-                    <li class="w-24 font-normal mx-auto my-auto text-center text-regular">
-                        <a href="/signin"
+
+                    <li class="w-24 font-normal text-[#2c2c2c] mx-auto my-auto text-center text-regular">
+                        <a href="/signup"
+
                         class="">
                         Daftar
                         </a>

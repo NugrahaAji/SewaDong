@@ -2,6 +2,7 @@
 <body class="overflow-hidden"> 
     @include('include.navbar-unreg')
     <section class="h-[100vh] overflow-hidden">
+
         <div class ="-z-10 absolute h-[100vh] top-0">
             <img src="{{ url('image/login-bg.svg') }}" alt="">
         </div>
@@ -30,12 +31,12 @@
                     <a href="" class="bg-[#DA0700] w-full h-[46px] rounded-full text-white font-extrabold text-lg font-Host traking-[101%] flex items-center justify-center">
                         Masuk
                     </a>
-                    <a href="/signin" class="bg-white w-full h-[46px] rounded-full border border-black text-black font-normal text-lg font-Host mt-4  flex items-center justify-center">
+                    <a href="/signup" class="bg-white w-full h-[46px] rounded-full border border-black text-black font-normal text-lg font-Host mt-4  flex items-center justify-center">
                         Buat akun
                     </a>
                     <a class="bg-white w-full text-black font-normal text-lg font-Host mt-4  flex items-center justify-center">
                         <div class="flex gap-[10px] justify-center">
-                            <img src="{{ url('icon/google.svg') }}" alt="">
+                            <img src="{{ url('image/google.svg') }}" alt="">
                             Masuk dengan Google
                         </div>
                     </a>
