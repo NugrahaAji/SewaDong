@@ -1,7 +1,8 @@
 @extends('layout.structure')
 <body class="overflow-hidden"> 
+    @include('include.navbar-unreg')
     <section class="h-[100vh] overflow-hidden">
-        @include('include.navbar-unreg')
+
         <div class ="-z-10 absolute h-[100vh] top-0">
             <img src="{{ url('image/login-bg.svg') }}" alt="">
         </div>

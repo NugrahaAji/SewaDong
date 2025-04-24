@@ -1,3 +1,4 @@
+
 <nav class="w-full top-0 h-20 z-50 flex bg-white text-[#433F3F] fixed shadow-[0px_0px_50px_0px_rgba(0,0,0,0.03)] " x-data="{ isOpen: false }">
         <div class="my-auto grow mx-auto ">
             <div class="flex items-center px-[4.16%]">
@@ -5,20 +6,31 @@
             {{-- nav-link --}}
             <div class="hidden lg:block ml-auto">
                 <ul class="flex gap-9 font-Host font-semibold text-[16px]">
-                    <li class="w-24 font-normal text-[#2c2c2c] mx-auto my-auto text-center text-regular">
+                    <li class="font-normal mx-auto my-auto text-center text-regular hidden">
+                        <a href="/beranda"
+                        class="">
+                        <img src="{{ url('icon/searchIcon.svg') }}" alt="">
+                        </a>
+                    </li>
+                    <li class="w-24 font-normal mx-auto my-auto text-center text-regular">
+
                         <a href="/beranda"
                         class="">
                         Beranda
                         </a>
                     </li>
+
                     <li class="w-24 font-normal text-[#2c2c2c] mx-auto my-auto text-center text-regular">
                         <a href="/kategori"
+
                         class="">
                         Kategori
                         </a>
                     </li>
+
                     <li class="w-24 font-normal text-[#2c2c2c] mx-auto my-auto text-center text-regular">
                         <a href="/signup"
+
                         class="">
                         Daftar
                         </a>
