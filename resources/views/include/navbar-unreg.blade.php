@@ -6,14 +6,13 @@
             {{-- nav-link --}}
             <div class="hidden lg:block ml-auto">
                 <ul class="flex gap-9 font-Host font-semibold text-[16px]">
-                    <li class="font-normal mx-auto my-auto text-center text-regular hidden">
+                <li class="font-normal mx-auto my-auto text-center text-regular hidden">
                         <a href="/beranda"
                         class="">
                         <img src="{{ url('icon/searchIcon.svg') }}" alt="">
                         </a>
                     </li>
                     <li class="w-24 font-normal mx-auto my-auto text-center text-regular">
-
                         <a href="/beranda"
                         class="">
                         Beranda
