@@ -83,7 +83,7 @@
                     <button type="submit" class="bg-[#DA0700] w-full h-[46px] rounded-full text-white font-bold text-lg font-Host flex items-center justify-center">
                         Selanjutnya
                     </button>
-                    <a href="{{ route('login') }}" class="bg-white w-full h-[46px] rounded-full border border-black text-black font-normal text-lg font-Host mt-4 flex items-center justify-center">
+                    <a href="/login" class="bg-white w-full h-[46px] rounded-full border border-black text-black font-normal text-lg font-Host mt-4 flex items-center justify-center">
                         Sudah punya akun
                     </a>
                 </div>

@@ -21,10 +21,6 @@ use App\Models\User;
 */
 
 
-Route::get('/phpinfo', function () {
-    phpinfo();
-});
-
 Route::get('/', function () {
     return view('welcome');
 });
@@ -88,8 +84,8 @@ Route::get('signin-up', function () {
     return view('frontend.signin-up');
 });
 Route::get('login', function () {
-    return view('frontend.login');
-});
+    return view('auth/login');
+})->name('login');
 Route::get('signin', function () {
     return view('frontend/signin');
 });
