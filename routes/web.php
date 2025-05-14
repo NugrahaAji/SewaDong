@@ -113,4 +113,8 @@ Route::get('pembayaran-scan', function () {
 Route::get('pengembalian', function () {
     return view('frontend/pengembalian');
 });
+Route::get('toko', function () {
+    return view('frontend/toko');
+});
+
 
