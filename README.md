@@ -1,66 +1,72 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Sewadong - Website Penyewaan Barang dan Jasa
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Selamat datang di **Sewadong!**  
+Sewadong merupakan hasil Proyek Akhir Semester (UAP) yang dirancang untuk memberikan solusi digital dalam penyewaan barang dan jasa secara online. Platform ini dibangun secara sistematis oleh tim yang solid, dengan tampilan yang ramah pengguna dan alur penggunaan yang mudah dipahami.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🚀 FEATURES
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Sewadong memiliki beberapa fitur unggulan, antara lain:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1. Pendaftaran akun pengguna baru
+2. Penyewaan barang dan jasa secara online
+3. Tampilan informasi penyewa dan detail transaksi
+4. Sistem pembayaran yang terstruktur
+5. Riwayat transaksi yang terekam rapi
+6. Antarmuka pengguna (UI) yang intuitif dan menarik secara visual
+7. Desain responsif yang mendukung berbagai perangkat
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🧾 HOW TO USE
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Untuk mulai menggunakan platform Sewadong, ikuti langkah-langkah berikut:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1. Pastikan Anda memiliki koneksi internet dan browser terbaru.
+2. Buka link sewadong.com
+3. Buat akun baru untuk mulai menyewa atau menawarkan barang/jasa.
+4. Gunakan fitur-fitur Sewadong untuk melakukan penyewaan, melihat detail transaksi, dan mengelola akun Anda.
+5. Nikmati pengalaman sewa yang mudah dan terorganisir!
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## 👥 ABOUT US
 
-### Premium Partners
+Kami adalah tim mahasiswa yang berkolaborasi dalam menciptakan platform ini dengan semangat dan dedikasi. Jangan ragu untuk menghubungi kami untuk saran atau pertanyaan!
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+- 📧 Email: sewadong.team@email.com 
+- 📷 Instagram:  
+  - @deadelvinaa  
+  - @alifabrarr 
+  - @nurgrahaaji
+  - @alfirahmaamlia
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## ❤️ GRATITUDE
 
-## Code of Conduct
+Kami ingin menyampaikan rasa terima kasih kepada semua kontributor utama dalam pengembangan Sewadong:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- **Nugraha Aji Saputra**  
+  Sebagai **Frontend Developer**, Aji merancang antarmuka pengguna (UI) yang interaktif dan nyaman digunakan oleh semua kalangan.
 
-## Security Vulnerabilities
+- **M Alif Abrar**  
+  Berperan sebagai **Backend Developer** sekaligus **Tester**, Alif membangun sistem logika di balik layar dan memastikan semua fitur berjalan tanpa kendala.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- **Dea Delvinata Riyan**  
+  Bertindak sebagai **UI/UX Designer** , Dea bertanggung jawab dalam merancang tampilan pengguna yang menyenangkan,menarik,mudah diakses oleh pengguna dan menganalisis kebutuhan sistem agar sesuai dengan harapan pengguna.
 
-## License
+- **Alfi Rahma Amalia**  
+  Bertindak sebagai  **System Analyst**, Alfi bertanggung jawab dalam merancang pengalaman pengguna yang menyenangkan dan menganalisis kebutuhan sistem agar sesuai dengan harapan pengguna.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
+
+💬 Terima kasih atas kerja keras, semangat, dan kerjasama yang luar biasa dari seluruh tim.  
+Proyek ini bukan hanya sebuah tugas akhir, tetapi juga karya bersama yang menunjukkan kekuatan kolaborasi.
+
+Semoga **Sewadong** dapat menjadi solusi penyewaan yang praktis, efisien, dan menyenangkan bagi para pengguna.
+
+---
+
+**HAVE A NICE EXPERIENCE WITH SEWADONG!**
